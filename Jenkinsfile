@@ -19,7 +19,7 @@ pipeline {
                 source /home/dteh/MLIP_Lab6/mlip/bin/activate
 
                 # TODO Complete the command to run pytest
-                pytest
+                pytest -m pytest
 
                 echo 'pytest executed'
                 // exit 1 #comment this line after implementing Jenkinsfile
